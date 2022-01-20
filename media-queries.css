@@ -2,12 +2,10 @@
     * {
         box-sizing: border-box;
     }
-
     body {
         margin: 1em;
         font-family: Arial, serif;
     }
-
     .alert-info {
         text-align: center;
         background-color: #CCFFFF;
@@ -15,13 +13,11 @@
         padding: 15px;
         font-size: .9em;
     }
-
     .alert-info a {
         color: black;
         text-decoration: none;
     }
-
-    ul {
+    .nav-links {
         display: flex;
         margin: .5em 0;
         padding: 0;
@@ -30,42 +26,35 @@
         justify-content: center;
         width: 100%;
     }
-
-    li {
+    .nav-links > li {
         background-color: lightgray;
         padding: 1em 0;
         margin: .5em 0;
         text-align: center;
         width: 100%;
     }
-
     .header-img {
         content: url("https://via.placeholder.com/339x224");
         width: 100%;
     }
-
     h1 {
         text-align: center;
         font-size: 2.8em;
         margin-top: .2em;
     }
-
     .main {
         margin: 2em 0;
     }
-
     .sub-section {
         font-style: italic;
         margin-top: 2em;
         margin-bottom: 6em;
     }
-
     footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-
     #social-media-links > a {
         color: lightgrey;
     }
@@ -78,56 +67,44 @@
         padding: .5em;
         font-family: Arial, serif;
     }
-
     .alert-info {
         display: none;
     }
-
     h1 {
         float: left;
-        margin-top: 0;
+        margin-top: .1em;
         font-size: 3em;
     }
-
     .nav-links {
         display: flex;
         justify-content: flex-end;
         list-style-type: none;
         margin-bottom: 3em;
     }
-
-    li {
+    .nav-links > li {
         padding: 1em;
     }
-
     .header-img {
         content: url("https://via.placeholder.com/890x385");
         display: inline-block;
         width: 100%
     }
-
     .main {
         float: left;
         width: 60%;
     }
-
     section {
-        display: flex;
-        flex-flow: column;
         align-content: space-between;
         padding: 3% 3% 15em 0;
     }
-
     section:nth-of-type(2) {
         font-style: italic;
     }
-
     footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-
     #social-media-links > a {
         color: lightgrey;
     }
